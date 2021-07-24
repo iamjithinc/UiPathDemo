@@ -5018,9 +5018,9 @@
     "restore": {
       "projectUniqueName": "UiPathCICD",
       "projectName": "UiPathCICD",
-      "projectPath": "D:\\Projects\\UiPath\\CICD_Demo\\UiPathCICD\\.local",
+      "projectPath": "D:\\Projects\\UiPath\\UiPathCICD\\.local",
       "packagesPath": "C:\\Users\\jithi\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\UiPath\\CICD_Demo\\UiPathCICD\\.local"
+      "outputPath": "D:\\Projects\\UiPath\\UiPathCICD\\.local"
     },
     "frameworks": {
       "net461": {
