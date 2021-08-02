@@ -11,7 +11,7 @@ pipeline {
         UIPATH_ORCH_LOGICAL_NAME = "itcaatknaq"
         UIPATH_ORCH_TENANT_NAME = "DefaultTenant"
         UIPATH_ORCH_FOLDER_NAME = "DEV"
-        LOCAL_WORK_SPACE="D:\Projects\UiPath\UiPathWorkSpace"
+        LOCAL_WORK_SPACE="D:/Projects/UiPath/UiPathWorkSpace"
     }
 
 
