@@ -11,6 +11,7 @@ pipeline {
         UIPATH_ORCH_LOGICAL_NAME = "itcaatknaq"
         UIPATH_ORCH_TENANT_NAME = "DefaultTenant"
         UIPATH_ORCH_FOLDER_NAME = "DEV"
+        LOCAL_WORK_SPACE="D:\Projects\UiPath\UiPathWorkSpace"
     }
 
 
@@ -35,7 +36,7 @@ pipeline {
          // Build Stages
         stage('Build') {
             steps {
-                echo "Building..with ${WORKSPACE}"
+                echo "Building..with ${LOCAL_WORK_SPACE}"
                 UiPathPack (
                       outputPath: "Output\\${env.BUILD_NUMBER}",
                       projectJsonPath: "project.json",
